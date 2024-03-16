@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('./Manrope-VariableFont_wght.ttf') format('truetype'), 
+}       
+  
+  
+  @font-face {
+    font-family: 'Fraunces';
+    src: url('./Fraunces_144pt-SemiBold.ttf') format('truetype'); 
+}
+  
+
+body{
+    width: 375px;
+    height: 2406px;
+    background-color: white;
+}
+
+header{
+    background-color: #24053E;
+    width: 100%;
+    height: 500px;
+    
+    
+    
+
+}
+
+.content{
+    margin-top: 64px;
+    max-width: 345px;
+    
+}
+
+
+
+.logo{
+    width: 95.762px;
+    height: 24.608px;
+    flex-shrink: 0;
+    padding-top: 37px;
+    padding-left: 16px;
+}    
+
+#botao-do-header{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    padding-top: 37px;
+    padding-right: 16px;
+    border-bottom: solid #44FFA1 2px;
+
+}
+
+.tracejado-do-titulo{
+    border-bottom: solid #44FFA1 3px;
+    font-size: 50px;
+}
+
+.header_topo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    width: 343px;
+    padding: 16px   16px;
+
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img_smartphone{
+    width: 300px;
+    height: 160px;
+    margin-top: 2px;
+}
+
+.primeiro-botao{
+    font-family: 'Manrope', sans-serif;
+    color: #24053E;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.16px;
+    width: 133px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #44FFA1;
+    margin-left: 121px;
+    margin-right: 121px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.numeros{
+    width: 48px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 30.5px;
+    border: 1px solid #584D62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 20% 10% 20%;
+    padding: 0;
+}
+
+span{
+    width: 16px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 180% */
+}
+
+
+
+.fundador{
+    width: 265px;
+    height: 267px;
+    flex-shrink: 0;
+    padding-bottom: -10px;
+}
+
+.retangulo-azul{
+    background-color: #24053E;
+}
+
+.titulo-do-retangulo-azul{
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 150% */
+    text-align: center;
+
+}
+
+.texto-do-retangulo-azul{
+    font-family: Manrope, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    color: white;
+    width: 281px;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.segundo-botao{
+    font-family: 'Manrope', sans-serif;
+    color: #24053E;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 200% */
+    letter-spacing: -0.16px;
+    width: 172px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #44FFA1;
+    margin-left: 121px;
+    margin-right: 121px;
+    margin-bottom: 32px;
+    border: none;
+    cursor: pointer;
+}
+    
+
+h2{
+    font-family: 'Fraunces', serif;
+    color: #24053E;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #584D62;
+}
